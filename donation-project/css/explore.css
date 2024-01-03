@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+nav {
+  background-color: whitesmoke;
+  padding: 16px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 65%;
+}
+
+.explore {
+  color: aquamarine;
+  margin-left: 1px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(77, 72, 72);
+  font-size: 15px;
+}
+
+nav ul li a:hover {
+  color: aquamarine;
+}
+
+#log {
+  text-decoration: none;
+  color: rgb(77, 72, 72);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#log:hover {
+  text-decoration: underline;
+  color: aquamarine;
+}
+
+#child {
+  width: 100%;
+  height: 80vh;
+  filter: blur(5px);
+}
+
+.children_text {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  bottom: 45%;
+  left: 40%;
+}
+
+.child_nav {
+  background-color: antiquewhite;
+  padding: 16px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -5px;
+}
+
+.child_nav ul{
+  list-style-type: none;
+  padding: 30px 5px;
+}
+
+.child_nav ul li{
+  display: inline;
+  margin-right: 20px;
+}
+
+.child_nav ul #li a{
+  text-decoration: none;
+  color: rgb(77, 72, 72);
+  font-size: 15px;
+}
+
+.child_nav ul #li a:hover{
+  color: aquamarine;
+}
+
+.explore_ {
+  color: aquamarine;
+  margin-left: 425px;
+  margin-right: 50px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#li {
+  display: inline;
+  margin-right: 50px;
+}
+
+/* .evaWaterContainer{
+  position: relative;
+} */
+
+.search_nav {
+  background-color: whitesmoke;
+  padding: 16px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+#search {
+  height: 55px;
+  margin-right: 50px;
+  width: 300px;
+  background-color: transparent;
+}
+
+select {
+  border: none;
+  color: darkslategrey;
+  margin: 0 50px 0 50px;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+#filter {
+  text-decoration: none;
+  color: rgb(77, 72, 72);
+  font-size: 18px;
+}
+
+#filter:hover {
+  content: aquamarine;
+}
+
+.donation {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#relev_text {
+  font-size: 20px;
+}
+
+#relev {
+  border: 2px solid aquamarine;
+  padding: 20px;
+  background-color: transparent;
+  color: darkslategrey;
+  margin: 0;
+  font-size: 20px;
+}
+
+
+
+#donation_amount {
+  height: 35px;
+  margin: -10px 0 0 50px;
+  width: 100px;
+  background-color: transparent;
+  color: aquamarine;
+  padding: 0 5px 0 5px;
+  font-size: 15px;
+  border: 1px solid aquamarine;
+}
+
+#donate_button {
+  background-color: aquamarine;
+  color: white;
+  height: 35px;
+  margin: -10px 0 0 0;
+  width: 85px;
+  border: none;
+  padding: 0 5px 0 5px;
+  font-size: 15px;
+}
+
+.decide {
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 40px 10px 20px 10px;
+  height: 70vh;
+}
+
+.decide h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: darkgray;
+}
+
+.decide p {
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.decide button {
+  background-color: rgb(3, 59, 36);
+  color: white;
+  width: 150px;
+  height: 50px;
+  padding: 0 5px 0 5px;
+  font-size: 20px;
+}
+
+.giftCard {
+  display: flex;
+  background-color: rebeccapurple;
+  height: 80vh;
+}
+
+.giftCard img {
+  width: 75%;
+  height: 80vh;
+}
+
+.description {
+  margin: 85px 0px 20px 0px;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.description h1 {
+  font-size: 45px;
+}
+
+#gift {
+  border-bottom: 2px solid antiquewhite;
+  padding-bottom: 15px;
+}
+
+.description p{
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#shopGift{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+  
+#shopGift:hover {
+  color: aquamarine;
+}
+
+.description button{
+  margin-top: 20px;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.description button:hover{
+  background-color: aquamarine;
+}
+
+.otherWays{
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  height: 50vh;
+  padding: 60px 0 0 0;
+}
+
+.otherWays h1{
+  font-size: 30px;
+  color: darkgray;
+}
+

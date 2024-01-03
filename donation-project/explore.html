@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Giving Explore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+          integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/explore.css" />
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.min.css">
+    <script src="./plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"> <i class="fa fa-home"></i>Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="form.html"> <i class="fa fa-donate"></i>Donate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> <i class="fa fa-map"></i>Explore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i></i> About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- section 1 -->
+      <div class="section  bg-info">
+        <img src="images/children.jpg" alt="children Playing" id="child">
+    <div class="text-small d-flex justify-content-center flex-wrap align-items-center px-md-3 py-2">
+        <a href="#" class="nav-link text-dark">Explore Projects</a>
+        <a href="#"  class="nav-link text-dark">GIFT CARDS</a>
+        <a href="#"  class="nav-link text-dark">PROJECT OF THE MONTH CLUB</a>
+    </div>
+</div>
+
+   <div class="d-flex flex-wrap gap-5 justify-content-center ">
+    <div class="mt-2 ">
+        <input id="search" type="search" placeholder="Search by keyword">
+        <select name="location">
+            <option value=" ">LOCATION<option>
+            <option value=" ">Saab</option>
+            <option value=" ">Fiat</option>
+            <option value=" ">Audi</option>
+        </select>
+    </div>
+    <div class="mt-4">
+        <select name="theme">
+            <option value=" ">THEME<option>
+            <option value=" ">Saab</option>
+            <option value=" ">Fiat</option>
+            <option value=" ">Audi</option>
+        </select>
+
+    </div>
+
+    <div class="mt-4">
+        <select name="recognition">
+            <option value=" ">RECOGNITION<option>
+            <option value=" ">Saab</option>
+            <option value=" ">Fiat</option>
+            <option value=" ">Audi</option>
+        </select>
+
+        <a href="#" id="filter" class="ms-4"><i>Clear All Filters</i></a>
+    </div>
+   </div>
+
+   <div class="donation">
+    <h1>All Projects</h1> <br> <br>
+    <label id="relev_text"> Found <b>6894 projects </b> sorted by</label>
+    <select name="relevance" id="relev">
+        <option value=" ">Relevance<option>
+        <option value=" ">Saab</option>
+        <option value=" ">Fiat</option>
+        <option value=" ">Audi</option>
+    </select>
+</div>
+<div class="container bg-info mt-5">
+    <div class="row py-5">
+      
+      <img src="images/sample.jpg"  class="col-4 img-fluid"alt="">
+      <div class="col-6"><h5 style="color: gray;">EDUCATION | SYRIAN ARAB REPUBLIC</h5>
+        <h2>Educate 500 Orphans in Syria <span id="small">by <b>Masarat Initiative</b></span></h2>
+        <p>In Syria... did you know that thousands of orphans are deprived of their fundamental right to
+            education? They suffer poverty and displacement <b>...readmore</b>
+        </p>
+        <p><b>Please Note:</b> Donation Starts Form $1000 or its equivalent Amount</p>
+        <input type="text" value="$" id="donation_amount">
+        <input type="submit" value="Donate" id="donate_button"></div>
+    </div>
+  </div>
+    
+     <div class="container bg-info mt-5" >
+        <div class="row py-5">
+       
+            <img src="images/sample.jpg" class="col-4 img-fluid" alt="">
+            <div class="col-6">
+                <h5 style="color: gray;">PHYSICAL HEALTH | SYRIAN ARAB REPUBLIC</h5>
+                <h2> Provide Urgent Medical Attention To Syrians 
+                    <span id="small">by <b> SEMA INSANI VE TIBBI YARDIM DERNEGI</b></span></h2>
+                <p>This campaign aims to support URGENT medical needs of those most in need in northern 
+                    Syria through supporting our hospitals, medical centers <b>...readmore</b>
+                </p>
+                <div>
+                    <p><b>Please Note:</b> Donation Starts Form $1000 or its equivalent Amount</p>
+                    <input type="text" value="$" id="donation_amount">
+                    <input type="submit" value="Donate" id="donate_button">
+            </div>
+     </div>
+     </div>
+     </div>
+     
+     <div class="container bg-info mt-5">
+        <div class="row py-5">
+          
+          <img src="images/sample.jpg"  class="col-4 img-fluid"alt="">
+          <div class=" col-6">
+            <h5 style="color: gray;">EDUCATION | UGANDA</h5><br>
+            <h2> Empower a Girl: For Self-Reliance <br>
+                <span id="small">by <b> Kole Intellectual Forum</b></span></h2><br>
+            <p>Kole Intellectual Forum intends to influence the ideas of policy makers at all levels,
+                educationists, community and youth in Uganda to inclu <b>...readmore</b>
+            </p><br>
+            <div >
+                <p><b>Please Note:</b> Donation Starts Form $1000 or its equivalent Amount</p>
+                <input type="text" value="$" id="donation_amount">
+                <input type="submit" value="Donate" id="donate_button">
+            </div>
+        </div>
+        </div>
+      </div>
+    
+      <div class="container bg-info mt-5">
+        <div class="row py-5">
+          
+          <img src="images/sample.jpg"  class="col-4 img-fluid"alt="">
+          <div class="col-6">
+            <h5 style="color: gray;">EDUCATION | UGANDA</h5><br>
+            <h2> Empower a Girl: For Self-Reliance <br>
+                <span id="small">by <b> Kole Intellectual Forum</b></span></h2><br>
+            <p>Kole Intellectual Forum intends to influence the ideas of policy makers at all levels,
+                educationists, community and youth in Uganda to inclu <b>...readmore</b>
+            </p><br>
+            <div class=>
+                <p><b>Please Note:</b> Donation Starts Form $1000 or its equivalent Amount</p>
+                <input type="text" value="$" id="donation_amount">
+                <input type="submit" value="Donate" id="donate_button">
+            </div>
+        </div>
+
+        </div>
+      </div>
+
+      <div class="container bg-info mt-5">
+        <div class="row py-5">
+          
+          <img src="images/sample.jpg"  class="col-4 img-fluid"alt="">
+          <div class="col-6">
+            <h5 style="color: gray;">EDUCATION | INDIA</h5><br>
+            <h2> Provide Gift & food to 700 Street Children <br>
+                <span id="small">by <b>  Rajasthan Samgrah Kalyan Sansthan</b></span></h2><br>
+            <p>Under this project, 700 street & poor slum children will be given Nutrition food,
+                Gift, New Dress, Lunch/Dinner, Toys & Happiness. The Progr <b>...readmore</b>
+            </p><br>
+            <div>
+                <p><b>Please Note:</b> Donation Starts Form $1000 or its equivalent Amount</p>
+                <input type="text" value="$" id="donation_amount">
+                <input type="submit" value="Donate" id="donate_button">
+            </div>
+        </div>
+
+        </div>
+      </div>
+        
+      
+      <div class="container bg-info mt-5">
+        <div class="row py-5">
+          
+          <img src="images/sample.jpg"  class="col-4 img-fluid"alt="">
+          <div class="col-6">
+            <h5 style="color: gray;">PHYSICAL HEALTH | SOUTH AFRICA</h5><br>
+            <h2>Lifeskills for 2,587 Children in South Africa <br>
+                <span id="small">by <b>  Keep The Dream196</b></span></h2><br>
+            <p>Join Keep The Dream196 in changing 2,587 South African orphaned and vulnerable 
+                children's lives. The kids aged 5-26yrs, changing families, v <b>...readmore</b>
+            </p><br>
+            <div>
+                <p><b>Please Note:</b> Donation Starts Form $1000 or its equivalent Amount</p>
+                <input type="text" value="$" id="donation_amount">
+                <input type="submit" value="Donate" id="donate_button">
+            </div>
+        </div>
+
+        </div>
+      </div>
+      <div class="container bg-info mt-5">
+        <div class="row py-5">
+          
+          <img src="images/sample.jpg"  class="col-4 img-fluid"alt="">
+          <div class="col-6">
+            <h5 style="color: gray;">GENDER EQUALITY | SIERRA LEONE</h5><br>
+            <h2>Educate a Girl, Educate a Nation - Sierra Leone <br>
+                <span id="small">by <b>  Develop Africa, Inc.</b></span></h2><br>
+            <p>Girls in Sierra Leone face several challenges in getting an education, including
+                poverty, cultural barriers, and lack of resources. This pro <b>...readmore</b>
+            </p><br>
+            <div>
+                <p><b>Please Note:</b> Donation Starts Form $1000 or its equivalent Amount</p>
+                <input type="text" value="$" id="donation_amount">
+                <input type="submit" value="Donate" id="donate_button">
+            </div>
+        </div>
+
+        </div>
+      </div>
+        
+
+       
+
+       
+
+      <div class="container bg-info mt-5">
+        <div class="row py-5">
+          
+          <img src="images/sample.jpg"  class="col-4 img-fluid"alt="">
+          <div class="col-6">
+            <h5 style="color: gray;">FOOD SECURITY | INDIA </h5><br>
+            <h2>Nourishing Hope: Serving Food for the Hunger <br>
+                <span id="small">by <b>  Prime Educational and Social Trust</b></span></h2><br>
+            <p>This project supports the 100 homeless, poor and downtrodden in and around Puducherry,
+                India to have a meal in a day. Due to the pandemic, t <b>...readmore</b>
+            </p><br>
+            <div>
+                <p><b>Please Note:</b> Donation Starts Form $1000 or its equivalent Amount</p>
+                <input type="text" value="$" id="donation_amount">
+                <input type="submit" value="Donate" id="donate_button">
+            </div>
+        </div>
+
+        </div>
+      </div>
+        
+      <div class="container bg-info mt-5">
+        <div class="row py-5">
+          
+          <img src="images/sample.jpg"  class="col-4 img-fluid"alt="">
+          <div class="col-6">
+            <h5 style="color: gray;">DISASTER RESPONSE | MOROCCO   </h5><br>
+            <h2>Support High Atlas community earthquake resilience <br>
+                <span id="small">by <b> Global Diversity Foundation</b></span></h2><br>
+            <p>On 9/8/2023, a massive earthquake struck Marrakech & the High Atlas with deadly force.
+                We are committed to providing immediate & long-term s<b>...readmore</b>
+            </p><br>
+            <div>
+                <p><b>Please Note:</b> Donation Starts Form $1000 or its equivalent Amount</p>
+                <input type="text" value="$" id="donation_amount">
+                <input type="submit" value="Donate" id="donate_button">
+            </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="container bg-info mt-5">
+        <div class="row py-5">
+          
+          <img src="images/sample.jpg"  class="col-4 img-fluid"alt="">
+          <div class="col-6">
+              <h5 style="color: gray;">GENDER EQUALITY | INDIA     </h5><br>
+              <h2>Support for menstrual health for girls in India <br>
+                  <span id="small">by <b>  Indian Dreams Foundation</b></span></h2><br>
+              <p>Through the Smiley Days project, IDF helps girls and women in overcoming the social 
+                  barriers associated with menstruation. By providing them<b>...readmore</b>
+              </p><br>
+              <div >
+                  <p><b>Please Note:</b> Donation Starts Form $1000 or its equivalent Amount</p>
+                  <input type="text" value="$" id="donation_amount">
+                  <input type="submit" value="Donate" id="donate_button">
+              </div>
+          </div>
+        </div>
+      </div>
+        
+      <div class="container bg-info mt-5">
+        <div class="row py-5">
+          
+          <img src="images/sample.jpg"  class="col-4 img-fluid"alt="">
+          <div class="col-6">
+            <h5 style="color: gray;">CLIMATE ACTION | BRAZIL </h5><br>
+            <h2>Forests4Water Brazil: Community Climate Action<br>
+                <span id="small">by <b>  Iracambi</b></span></h2><br>
+            <p>If there's one thing that the pandemic has taught us, it's how interdependent we
+                all are, and how what happens in one place can affect other<b>...readmore</b>
+            </p><br>
+            <div>
+                <p><b>Please Note:</b> Donation Starts Form $1000 or its equivalent Amount</p>
+                <input type="text" value="$" id="donation_amount">
+                <input type="submit" value="Donate" id="donate_button">
+            </div>
+        </div>
+        </div>
+      </div>
+        
+
+       
+      <div class="container bg-info mt-5">
+        <div class="row py-5">
+          
+          <img src="images/sample.jpg"  class="col-4 img-fluid"alt="">
+          <div class="col-6">
+            <h5 style="color: gray;">EDUCATION | SYRIAN ARAB REPUBLIC </h5><br>
+            <h2>Educate 500 Syrian IDP Students<br>
+                <span id="small">by <b> Masarat Initiative</b></span></h2><br>
+            <p>The project will provide free education using remote learning platforms like 
+                Microsoft Teams to 500 students who have been deprived of educa<b>...readmore</b>
+            </p><br>
+            <div class=>
+                <p><b>Please Note:</b> Donation Starts Form $1000 or its equivalent Amount</p>
+                <input type="text" value="$" id="donation_amount">
+                <input type="submit" value="Donate" id="donate_button">
+            </div>
+        </div>
+        </div>
+      </div>
+        
+      <div class="container bg-info mt-5">
+        <div class="row py-5">
+          
+          <img src="images/sample.jpg"  class="col-4 img-fluid"alt="">
+          <div class="col-6">
+            <h5 style="color: gray;">DISASTER RESPONSE | MOROCCO </h5><br>
+            <h2>Earthquake Relief for Moroccan Communities<br>
+                <span id="small">by <b> High Atlas Foundation</b></span></h2><br>
+            <p>The project will provide free education using remote learning platforms like 
+                Microsoft Teams to 500 students who have been deprived of educa<b>...readmore</b>
+            </p><br>
+            <div >
+                <p><b>Please Note:</b> Donation Starts Form $1000 or its equivalent Amount</p>
+                <input type="text" value="$" id="donation_amount">
+                <input type="submit" value="Donate" id="donate_button">
+            </div>
+        </div>
+        </div>
+      </div>
+       
+
+       
+       
+     
+
+       
+    <!-- different -->
+    <div class="decide">
+        <h2>Can't decide which project you care about most? </h2><br>
+        <p>You don't have to! Each month, GlobalGiving picks an exceptionally high-project as the <br> 
+            project of the month, and they receive money from donors who belong to our Project of the
+            Month <br> Club. <br><br><br>Become a member today, and your donation will go to a different very 
+            deserving project each month. </p>
+            <br>
+            <br>
+        <button>JOIN NOW</button>
+    </div>
+
+    <div class="giftCard">
+        <img src="images/giftCard.jpeg" alt="">
+        <div class="description">
+            <h1>Buy a <span id="gift">Gift</span> Card!</h1>
+            <p>Give the gift of giving with a <br> GlobalGiving Gift Card.</p>
+            <br><br><br><br>
+            <a href="#" id="shopGift">SHOP FOR GIFTS</a>
+            <br><br><br>
+            <button>REDEEM A GIFT CARD</button>
+        </div>
+    </div>
+
+    <div class="otherWays"> <h1>Other Ways to Get Involved</h1></div>
+
+    <div class="firstFooter mt-5">
+    <div class="row g-3 p-3 p-md-5 align-items-md-center mt-4">
+        <div class="col-md-4">
+          <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="col-md-6">
+           <p class="mw-75 text-white">GlobalGiving makes it easy and safe for you to give to local
+          projects  anywhere in the world, while providing nonprofits with the tools,
+          training,  and support they need to thrive.</p>
+          <div class="">
+            <button class="btn btn-outline-info">HELP CENTER</button>
+          </div>
+          <div class="mt-3 d-flex gap-3 align-items-center">
+            <span>
+              <i class="fa fa-fb">fb</i>
+            </span>
+            <span>
+              <i class="fa fa-linkedin">linkedin</i>
+            </span>
+            <span>
+              <i class="fa fa-insta">insta</i>
+            </span>
+          </div>
+        </div>
+      </div>
+       <div class="d-flex">
+        <div>
+          <ul>
+
+          </ul>
+        </div>
+       </div>
+      
+    <hr>
+    <div class="d-flex gap-5 flex-wrap justify-content-center">
+      <div class=""> 
+        <h5><a href="#" class="nav-link">Donors</a></h5>
+        <ul class="list-unstyled">
+          <li class="nav-item"><a class="nav-link" href="#">Give or Redeem Gift Cards</a></li>
+          <li class="nav-item"><a class="nav-link"  href="#">Donate in Honor</a></li>
+          <li class="nav-item"><a class="nav-link"  href="#">Project of the Month Club</a></li>
+          <li class="nav-item"><a class="nav-link"  href="#">Start a Fundraiser</a></li>
+        </ul>
+      </div>
+      <div class="">
+        <h5><a href="#" class="nav-link">Nonprofits</a></h5>
+        <ul class="list-unstyled ">
+          
+          <li class="nav-item"><a class="nav-link"  href="#">Start an Application</a></li>
+          <li class="nav-item"><a class="nav-link"  href="#">Why Join? Club</a></li>
+          <li class="nav-item"><a class="nav-link"  href="#">Handbook</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pricing & Fees</a></li>
+        </ul>
+      </div>
+      <div class=""> 
+        <h5><a href="#" class="nav-link">Companies</a></h5>
+        <ul class="list-unstyled">
+          <li class="nav-item"><a class="nav-link" href="#">Our Services</a></li>
+          <li class="nav-item"><a class="nav-link"  href="#">Our Partners</a></li>
+          <li class="nav-item"><a class="nav-link"  href="#">Corporate Gift Cards</a></li>
+          <li class="nav-item"><a class="nav-link"  href="#">GlobalGiving Atlas</a></li>
+        </ul>
+      </div>
+      <div class="">
+        <h5><a href="#" class="nav-link">About us</a></h5>
+        <ul class="list-unstyled">
+          <li class="nav-item"><a class="nav-link" href="#">Our Teams</a></li>
+          <li class="nav-item"><a class="nav-link"  href="#">Jobs</a></li>
+          <li class="nav-item"><a class="nav-link"  href="#">FAQs</a></li>
+          <li class="nav-item"><a class="nav-link"  href="#">Constact Us</a></li>
+        </ul>
+      </div>
+      <div class="">
+        <h5><a href="#" class="nav-link">Learn Library</a></h5>
+        <ul class="list-unstyled">
+          <li class="nav-item"><a class="nav-link" href="#">Nonprofit Resources</a></li>
+          <li class="nav-item"><a class="nav-link"  href="#">Corporate Giving Resources</a></li>
+          <li class="nav-item"><a class="nav-link"  href="#">Donor Resources</a></li>
+          <li class="nav-item"><a class="nav-link"  href="#">Success Stories</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class=" footer py-2 px-5 ms-5 ">
+      <p class="ms-5  mb-3">© Copyright 2000-2023 GlobalGiving, a 501(c)(3) organization (EIN: 30‑0108263) <br>
+        Registered Charity in England and Wales # 1122823<br>
+        1 Thomas Circle NW, Suite 800, Washington, DC 20005, USA Questions? <a href="#">Contact Us</a>
+      </p>
+      <div class="ms-5 row">
+        <div class="col-md-6">
+          <select name="location" class="form-select outline-info mw-25">
+            <option value=" ">$USD<option>
+            <option value=" ">Saab</option>
+            <option value=" ">Fiat</option>
+            <option value=" ">Audi</option>
+          </select>
+        </div>
+        <div class="col-md-6 ">
+          <ul class="list-group list-group-horizontal list-unstyled flex-wrap ">
+            <li><a class="nav-link" href="#">PRIVACY</a></li>
+            <li><a class="nav-link" href="#">COOKIES</a></li>
+            <li><a class="nav-link" href="#">TERMS</a></li>
+            <li><a class="nav-link" href="#">PRICING</a></li>
+            <li><a class="nav-link" href="#">API</a></li>
+            <li><a class="nav-link" href="#">DATA</a></li>
+          </ul>
+        </div>
+      </div> 
+    </div>
+</body>
+</html>

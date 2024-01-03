@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- bstrp -->
+  <link rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.min.css" >
+  <script src="./plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- fa -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/war.css">
+  <title>Document</title>
+</head>
+
+<body style="background-color:rgb(197, 195, 195);">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">&nbsp;&nbsp;&nbsp;WAR PALLIATIVES</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"> <i class="fa fa-home"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html"> <i class="fa fa-donate"></i>Donate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="explore.html"> <i class="fa fa-map"></i>Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i></i> About</a>
+          </li>
+          <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Corporate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Disasters</a>
+              </li> -->
+          <!-- <li class="nav-item">
+                <a class="nav-link" href="#"><img src="icon/gift.png" alt=""height=20>&nbsp;&nbsp;<span style="color: aquamarine;">Gift</span>&nbsp;&nbsp;<img src="icon/cart.gif" alt=""height=20></a>
+              </li> -->
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <div class="card m-md-5">
+    <div class="card-body">
+      <form class="row g-3 p-md-5" action="./form_sub.php" method="POST">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Name</label>
+          <input type="text" class="form-control" id="inputEmail4"  name="name" required>
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Cell Number</label>
+          <input type="number" class="form-control" id="inputPassword4" name="cell_number" required>
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" name="address" required>
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Donation Reason</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="child or erlderly" name="donation_reason" required>
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity" name="city" required>
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">USD</label>
+          <select id="inputState" class="form-select" name="amount" required>
+            <option selected>Choose...</option>
+            <option>$500</option>
+            <option>$1500</option>
+            <option>$2000</option>
+            <option>$3000</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputZip" name="email" required>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" name="agreed_to_terms" required>
+            <label class="form-check-label" for="gridCheck">
+              Do you agree to terms?
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

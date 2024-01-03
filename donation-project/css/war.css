@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    background-color:rgb(197, 195, 195);
+}
+
+#navbarNav{
+    background-color: whitesmoke;
+    margin-left: 30%;
+}
+.nav-link:hover{
+    background-color: aquamarine;
+}
+.pic1{
+    position:relative;
+    margin-right: 4px;
+}
+.pic2_3{
+    display: flex;
+}
+.pic_work{
+    margin-bottom: 4px;
+}
+.pic1_text{
+    color: beige;
+    position:absolute;
+    left: 20px;
+    bottom: 1;
+    font-size: 30px;
+}
+.pic1_text:hover{
+   color: rgb(230, 247, 247);
+}
+.bottomBar,.bottomBarNav{
+    background-color: aquamarine;    
+}
+
+.text-small{
+    font-size:calc(1rem - 2px) !important;
+
+}
+.non:hover{
+    color: aquamarine;
+}
+
+#oppsYearspan{
+    float: left;
+    font-size: 25px;
+    margin-left: 10px;
+}
+#how{
+    text-align: center;
+    font-size: 30px;
+}
+.go{
+    background-color: aquamarine;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10;
+   width: 50%;
+    text-align: center;
+}
+#goCon{
+    display: flex;
+    
+    
+}
+#downCon,#down{
+    background-color:white;
+    margin-top: 70px;
+    padding-left: 100px;
+    display: flex;
+    padding-top: 60px;
+   
+}
+.picCon{
+   position:relative;
+}
+.pic{
+    width: 330px;
+  
+}
+
+.c_text{
+    color: beige;
+    position:absolute;
+    left: 2rem;
+    bottom: .5rem;
+    
+    font-size: 15px;
+}
+.c_text:hover{
+    color: aqua;
+    background-color: blueviolet;
+}
+#pic11_13{
+    display: flex;
+}
+.pic11_13{
+    margin: 15px;
+    margin-left: 35px;
+}
+.pic11_13_text{
+    text-align: center;
+}
+#input{
+text-align: center;
+/**width: 150%;**/
+height: 200px;
+background-color: aquamarine;
+
+}
+.input{
+    padding-top: 50px;
+}
+/* for the footer */
+.firstFooter{
+    background-color: darkslategrey;
+  }
+  
+  .contact{
+    display: flex;
+    padding: 50px 15px 35px 15px;
+  }
+  
+  .contact img{
+    width: 15%;
+    margin: 10px 75px 10px 15px;
+  }
+  
+  .contact p{
+    color: white;
+    margin-right:70px;
+  }
+  
+  .contact button{
+    color: aquamarine;
+    /* font-weight: bolder; */
+    font-size: 15px;
+    border: 2px solid aquamarine;
+    background-color: transparent;
+    padding: 10px;
+    margin-right:50px;
+    width: 150px;
+    height: 50px;
+  }
+  
+  .information{
+    display: flex;
+    padding: 50px 10px 35px 45px;
+    /* margin-left: 75px; */
+  }
+  
+  .left{
+    margin-left: 100px;
+  }
+  
+  .information div h1 a{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 25px;
+  }
+  
+  .information div h1 a:hover{
+    text-decoration: underline;
+  }
+  
+  .information div p {
+    margin-top: 10px;
+  }
+  
+  .information div p a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .information div p a:hover{
+    text-decoration: underline;
+    color: aquamarine;
+  }
+  
+  footer{
+    background-color: cadetblue;
+  }
+  
+  footer p{
+    color: gray;
+    font-size: 15px;
+  }
+  
+  footer p a{
+    color: aquamarine;
+    text-decoration: none;
+  }
+
+
+  /* Media Queries  */
+
+  @media (max-width: 991.98px){
+  	
+  }

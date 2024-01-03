@@ -1,0 +1,135 @@
+.firstFooter{
+    background-color: darkslategrey;
+  }
+  
+  .contact{
+    display: flex;
+    padding: 50px 15px 35px 15px;
+  }
+  
+  .contact img{
+    width: 15%;
+    margin: 10px 75px 10px 15px;
+  }
+  
+  .contact p{
+    color: white;
+    margin-right:70px;
+  }
+  
+  .contact button{
+    color: aquamarine;
+    /* font-weight: bolder; */
+    font-size: 15px;
+    border: 2px solid aquamarine;
+    background-color: transparent;
+    padding: 10px;
+    margin-right:50px;
+  }
+  
+  .information{
+    display: flex;
+    padding: 50px 10px 35px 45px;
+    /* margin-left: 75px; */
+  }
+  
+  .left{
+    margin-left: 100px;
+  }
+  
+  .information div h1 a{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 25px;
+  }
+  
+  .information div h1 a:hover{
+    text-decoration: underline;
+  }
+  
+  .information div p {
+    margin-top: 10px;
+  }
+  
+  .information div p a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .information div p a:hover{
+    text-decoration: underline;
+    color: aquamarine;
+  }
+  
+  footer{
+    background-color: cadetblue;
+    padding: 20px 15px 15px 45px;
+    display: flex;
+  }
+  
+  footer p{
+    color: gray;
+    font-size: 15px;
+  }
+  
+  footer p a{
+    color: aquamarine;
+    text-decoration: none;
+  }
+  
+  footer p a:hover{
+    text-decoration: underline;
+  }
+  
+  footer div{
+    display: flex;
+    margin-left: 100px;
+  }
+  
+  footer div select{
+    border: 1px solid aquamarine;
+    padding: 5px;
+    color: aquamarine;
+    font-size: 15px;
+    width: 120px;
+  }
+  
+  footer div ul{
+    list-style-type: none;
+    margin-top: 17px;
+    display: flex;
+  }
+  
+  footer div ul li{
+    /* display: inline; */
+    margin-right: 15px;
+    margin-left: 0;
+    padding-right: 10px;
+    position: relative;
+  }
+  
+  footer div ul li::before{
+    content: "·";
+    position: absolute;
+    color: aquamarine;
+    font-size: 50px;
+    left: -20px;
+    bottom: -5px;
+  }
+  
+  /* footer div ul li p{
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+  } */
+  
+  footer div ul li a{
+   color: white;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  footer div ul li a:hover{
+    color: aquamarine;
+    text-decoration: underline;
+  }
